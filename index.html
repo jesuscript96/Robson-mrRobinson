@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Robinson</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-navbar">
+
+    <!-- Top Bar -->
+    <header class="bg-dark text-white py-2">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center">
+                <!-- Social Icons -->
+                <div class="mb-2 mb-md-0">
+                    <a href="#" class="text-white text-decoration-none me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white text-decoration-none me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                    <a href="#" class="text-white text-decoration-none"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                </div>
+                <!-- Contact Info -->
+                <div class="d-flex flex-column flex-md-row align-items-center">
+                    <a href="tel:+34000000000" class="text-white text-decoration-none me-md-4 mb-2 mb-md-0"><i class="fas fa-phone me-2"></i>+34 000 000 000</a>
+                    <a href="mailto:contacto@mrrobinson.com" class="text-white text-decoration-none"><i class="fas fa-envelope me-2"></i>contacto@mrrobinson.com</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="main-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/Captura_de_pantalla_2025-09-04_a_las_18.25.14-removebg-preview.png" alt="Mr. Robinson Logo" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carousel-section">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-nosotros">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tienda">Tienda</a>
+                    </li>
+                </ul>
+                <a href="#contacto" class="btn btn-primary cta-button">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="py-5 text-center">
+        <div class="container">
+            <h1 class="section-title">INGENIERÍA AVANZADA PARA SOLUCIONES ROBUSTAS</h1>
+            <p class="lead-text mb-5">Precisión, fiabilidad y rendimiento en cada proyecto.</p>
+            
+            <div class="row mt-5">
+                <!-- Bullet Point 1 -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="bullet-point">
+                        <i class="fas fa-cogs fa-3x mb-3"></i>
+                        <h4 class="bullet-title">Diseño de Precisión</h4>
+                        <p>Soluciones a medida con la máxima exactitud técnica.</p>
+                    </div>
+                </div>
+                <!-- Bullet Point 2 -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="bullet-point">
+                        <i class="fas fa-drafting-compass fa-3x mb-3"></i>
+                        <h4 class="bullet-title">Materiales de Calidad</h4>
+                        <p>Componentes seleccionados para una durabilidad extrema.</p>
+                    </div>
+                </div>
+                <!-- Bullet Point 3 -->
+                <div class="col-md-4">
+                    <div class="bullet-point">
+                        <i class="fas fa-shield-alt fa-3x mb-3"></i>
+                        <h4 class="bullet-title">Rendimiento Garantizado</h4>
+                        <p>Pruebas exhaustivas para asegurar una operación fiable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 pt-10">
+        <div class="container text-center">
+            <h2 class="section-title"></h2>
+            <h2 class="section-title">CONTACTO</h2>
+            <p class="lead-text mb-4">¿Tienes un proyecto en mente? Hablemos.</p>
+            <div class="d-flex justify-content-center">
+                <a href="mailto:contacto@mrrobinson.com" class="btn btn-primary cta-button me-3">
+                    <i class="fas fa-envelope me-2"></i> Enviar Email
+                </a>
+                <a href="https://wa.me/34000000000" target="_blank" class="btn btn-success">
+                    <i class="fab fa-whatsapp me-2"></i> Contactar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel -->
+    <section id="carousel-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://placehold.co/1920x800/1D1D1C/B01E36?text=Ingenier%C3%ADa+y+Precisi%C3%B3n" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1920x800/B01E36/FFFFFF?text=Innovaci%C3%B3n" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1920x800/CCCCCC/1D1D1C?text=Calidad+Garantizada" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros" class="py-5">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <img src="./img/Captura_de_pantalla_2025-09-04_a_las_18.28.09-removebg-preview.png" alt="Isotipo León" class="mb-4" style="border-radius: 50%; max-width: 150px; height: auto;">
+                    <h2 class="section-title">SOBRE NOSOTROS</h2>
+                    <p class="lead-text">
+                        En Mr. Robinson, combinamos décadas de experiencia en ingeniería con una pasión por la innovación para ofrecer soluciones precisas y fiables. Nuestra misión es superar las expectativas de nuestros clientes a través de la calidad, la integridad y un compromiso inquebrantable con la excelencia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tienda Online -->
+    <section id="tienda" class="py-5 bg-light">
+        <div class="container text-center">
+             <h2 class="section-title">VISITA NUESTRA TIENDA</h2>
+             <p class="lead-text mb-4">Descubre nuestro catálogo de productos de alta ingeniería.</p>
+             <a href="#" class="btn btn-primary cta-button-outline">Ir a la Tienda</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Mr. Robinson. Todos los derechos reservados.</p>
+            <p>Diseño web por Automato</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
